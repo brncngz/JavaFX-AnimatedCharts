@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="306.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="umlButton" layoutX="133.0" layoutY="45.0" mnemonicParsing="false" onAction="#onumlButtonClick" prefHeight="46.0" prefWidth="131.0" text="Load uml file" />
+      <Button fx:id="brandButton" layoutX="133.0" layoutY="120.0" mnemonicParsing="false" onAction="#onBrandButtonClick" prefHeight="46.0" prefWidth="131.0" text="Load brands text file" />
+      <Button fx:id="cityButton" layoutX="133.0" layoutY="205.0" mnemonicParsing="false" onAction="#onCityButtonClick" prefHeight="46.0" prefWidth="131.0" text="Load cities text file" />
+   </children>
+</AnchorPane>
